@@ -11,7 +11,7 @@ by Hermitcraft and tracks the score of each player.
 
 ## How to install
 
-1. Download the zip file for the latest release of the datapack
+1. Download the zip file for the [latest release](https://github.com/DrHenchman/hardcore-hermits/releases/download/v0.1/hardcore-hermits.zip) of the datapack
 2. Place the zip file in in the `<world>/datapacks/` folder
 3. Run `/reload` on your server to detect the new datapack
 
