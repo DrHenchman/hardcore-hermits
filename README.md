@@ -7,6 +7,7 @@ by Hermitcraft and tracks the score of each player.
 
 * Keep track of the score of each player, counting how many vanilla advancements they
   have obtained. Only advancements which announce to chat are included
+* Score `HCH_Dis_Count` can be used to set display, e.g. `scoreboard objectives setdisplay sidebar HCH_Dis_Count`
 
 ## How to install
 
