@@ -3,6 +3,7 @@ scoreboard players set @s HCH_Temp_Count 0
 execute if entity @s[advancements={minecraft:adventure/adventuring_time=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:adventure/kill_a_mob=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:adventure/kill_all_mobs=true}] run scoreboard players add @s HCH_Temp_Count 1
+execute if entity @s[advancements={minecraft:adventure/root=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:adventure/shoot_arrow=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:adventure/sleep_in_bed=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:adventure/sniper_duel=true}] run scoreboard players add @s HCH_Temp_Count 1
@@ -19,12 +20,14 @@ execute if entity @s[advancements={minecraft:end/find_end_city=true}] run scoreb
 execute if entity @s[advancements={minecraft:end/kill_dragon=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:end/levitate=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:end/respawn_dragon=true}] run scoreboard players add @s HCH_Temp_Count 1
+execute if entity @s[advancements={minecraft:end/root=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:husbandry/balanced_diet=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:husbandry/break_diamond_hoe=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:husbandry/bred_all_animals=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:husbandry/breed_an_animal=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:husbandry/fishy_business=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:husbandry/plant_seed=true}] run scoreboard players add @s HCH_Temp_Count 1
+execute if entity @s[advancements={minecraft:husbandry/root=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:husbandry/tactical_fishing=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:husbandry/tame_an_animal=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:nether/all_effects=true}] run scoreboard players add @s HCH_Temp_Count 1
@@ -37,6 +40,7 @@ execute if entity @s[advancements={minecraft:nether/find_fortress=true}] run sco
 execute if entity @s[advancements={minecraft:nether/get_wither_skull=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:nether/obtain_blaze_rod=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:nether/return_to_sender=true}] run scoreboard players add @s HCH_Temp_Count 1
+execute if entity @s[advancements={minecraft:nether/root=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:nether/summon_wither=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:nether/uneasy_alliance=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:story/cure_zombie_villager=true}] run scoreboard players add @s HCH_Temp_Count 1
@@ -51,6 +55,7 @@ execute if entity @s[advancements={minecraft:story/lava_bucket=true}] run scoreb
 execute if entity @s[advancements={minecraft:story/mine_diamond=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:story/mine_stone=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:story/obtain_armor=true}] run scoreboard players add @s HCH_Temp_Count 1
+execute if entity @s[advancements={minecraft:story/root=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:story/shiny_gear=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:story/smelt_iron=true}] run scoreboard players add @s HCH_Temp_Count 1
 execute if entity @s[advancements={minecraft:story/upgrade_tools=true}] run scoreboard players add @s HCH_Temp_Count 1
